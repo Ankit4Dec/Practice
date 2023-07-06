@@ -64,3 +64,15 @@ function outer(){
 
 const innerFunc = outer();
 innerFunc();
+
+
+// Q6---- " this "  Keyword in JS
+
+const person = {
+    name: "Alive",
+    greet: function(){
+        console.log(`Hello , my name is ${this.name}`);
+    }
+};
+
+person.greet();
