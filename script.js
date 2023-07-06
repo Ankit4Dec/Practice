@@ -76,3 +76,34 @@ const person = {
 };
 
 person.greet();
+
+
+
+function greet(){
+    console.log(`Hello, my name is ${this.name}`);
+}
+
+const person1 = {name:"Alice"};
+const person2 = {name: "Bob"};
+
+greet.call(person1);
+greet.call(person2);
+
+
+// Q7 ----- SYNCHRONOUS & ASYNCRONOUS CODE
+
+// Example of Synchronous Code:
+
+console.log("Line 1")
+console.log("Line 2")
+console.log("Line 3")
+
+
+// Example of Asynchronous Code using callback
+
+console.log("Another line for Asynchronous");
+setTimeout(()=>{
+    console.log("Calling Callback after 5 Second")
+},5000);
+console.log("Ending line of Asynchronous Code Example, But it will reflect before callout")
+console.log("Code will come afer 5 Second, Please Wait")
