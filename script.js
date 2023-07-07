@@ -107,3 +107,32 @@ setTimeout(()=>{
 },5000);
 console.log("Ending line of Asynchronous Code Example, But it will reflect before callout")
 console.log("Code will come afer 5 Second, Please Wait")
+
+
+// Q8 ---- Promise in JS
+
+const promise = new Promise ((resolve, reject)=>{
+    setTimeout(()=>{
+        reject("Ye Galat ho gaya");
+    }, 5000)
+});
+
+promise.then((result)=>{
+    console.log(result);
+}).catch((error)=>{
+    console.log(error);
+})
+
+
+// Q9 ---- Callback function in JS
+
+function doSomething(callback){
+    setTimeout(()=>{
+        callback("Ye Callback call ho raha hai")
+    },5000);
+}
+
+doSomething((result)=>{
+    console.log(result);
+})
+
