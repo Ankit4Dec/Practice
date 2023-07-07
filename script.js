@@ -136,3 +136,9 @@ doSomething((result)=>{
     console.log(result);
 })
 
+// Q10 ---- How would you check if a variable is an array in JavaScript
+
+const arr = [1,22,3];
+
+console.log(Array.isArray(arr));
+console.log(Array.isArray("hello"));
