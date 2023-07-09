@@ -14,8 +14,8 @@ modifyArray(arr,function(){
 
 /// Q2---- Reverse whole String
 
-var string = "Welcome to my YouTube Channel"
+var stringDefine = "Welcome to my YouTube Channel";
 
-var modifiedString = string.split().reverse().join();
+var reversedString = stringDefine.split("").reverse().join("");
 
-console.log(modifiedString);
+console.log(reversedString)
