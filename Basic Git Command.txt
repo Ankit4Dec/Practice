@@ -17,8 +17,10 @@ To Check Branch
 git branch -a
 
 
-Perosonal Access Token in GitHub - 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
+Perosonal Access Token in GitHub - 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'
 
+
+If the Error is "fatal unable to access could not resolve host github.com ", Then check the TOKEY KEY , is it expire or not . If It's expired create one .
 
 
 
