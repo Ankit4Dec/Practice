@@ -10,3 +10,17 @@ git push -u -f origin master
 
 Error :- git process on another link 
 Solution :- rm .git/index.lock
+
+
+To Check Branch
+
+git branch -a
+
+
+Perosonal Access Token in GitHub - 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
+
+
+
+
+If gettin error to Not SHowing any Branch called unborn Branch
+Solution :- https://www.youtube.com/watch?v=2qCRJRYIBnU   
